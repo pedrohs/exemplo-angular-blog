@@ -1,0 +1,6 @@
+<article ng-repeat="post in posts" class="index-posts">
+	<a ui-sref="post({postId: post.id})"><h1>{{post.titulo}}</h1></a>
+	<p>Postado por: <strong>{{post.author}}</strong> em {{post.data | date:'dd/MM/yyyy'}}</p>
+	<p>{{post.content | limitTo: 350}}...</p>
+	<a ui-sref="post({postId: post.id})" class="btn btn-default">Continue lendo</a>
+</article>

@@ -1,0 +1,22 @@
+{
+  "name": "blog-spa",
+  "version": "0.0.1",
+  "description": "exemplo de blog usando angular.js em spa",
+  "main": "index.html",
+  "authors": [
+    "Pedro H.S"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "ui-router": "~0.2.15"
+  }
+}

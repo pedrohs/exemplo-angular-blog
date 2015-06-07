@@ -1,0 +1,21 @@
+  {
+    "blogTitle": "Angular Blog",
+    "blogSubTitle": "o seu blog sobre angular",
+    "menu": [
+      {
+        "id": 0,
+        "item": "Home",
+        "url": "/home"
+      },
+      {
+        "id": 1,
+        "item": "Contato",
+        "url": "/contato"
+      },
+      {
+        "id": 2,
+        "item": "Sobre",
+        "url": "/sobre"
+      }
+    ]
+  }
